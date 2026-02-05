@@ -35,10 +35,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenSettings }) => {
             <ExternalLink className="w-3 h-3 mr-1.5" />
             HIRETEACHER
           </a>
-          <div className="hidden md:flex items-center text-xs text-gray-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-            <Cloud className="w-3 h-3 mr-1 text-[#3370ff]" />
-            Lark Base Sync Active
-          </div>
+          
           <button 
             onClick={onOpenSettings}
             className="p-2 text-gray-400 hover:text-[#f58220] hover:bg-orange-50 rounded-full transition-all"
